@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require("path");
 
 const url = 'http://norvig.com/big.txt';
-const dictAPI = 'https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=dict.1.1.20170610T055246Z.0f11bdc42e7b693a.eefbde961e10106a4efa7d852287caa49ecc68cf&lang=en-en&text=';
+const dictAPI = `https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=${process.env.API_KEY}&lang=en-en&text=`;
 const freq = {};
 let totalLines = 0;
 
