@@ -21,6 +21,7 @@ Documentation: https://tech.yandex.com/dictionary/doc/dg/reference/lookup-docpag
 
 ---
 ## Setup and Run
-1. run `yarn install` 
-2. run `npm start` 
-3. check `REPL` for result`
+1. run `export API_KEY="<DICT_API_KEY>"`
+2. run `yarn install` 
+3. run `npm start` 
+4. check `REPL` for result`
