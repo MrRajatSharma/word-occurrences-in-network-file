@@ -18,3 +18,9 @@
 API Details 
 API: https://dictionary.yandex.net/api/v1/dicservice.json/lookup
 Documentation: https://tech.yandex.com/dictionary/doc/dg/reference/lookup-docpage/
+
+---
+## Setup and Run
+1. run `yarn install` 
+2. run `npm start` 
+3. check `REPL` for result`
